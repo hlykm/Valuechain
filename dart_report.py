@@ -12,7 +12,7 @@ import json
 warnings.filterwarnings('ignore')
 
 # 📌 새로운 폴더 경로 설정
-base_dir = os.path.abspath("C:/Users/김현지M/스마일게이트자산운용/글로벌운용본부 - 문서/Collaboration/밸류체인")
+base_dir = os.path.abspath("폴더 경로 설정")
 new_project_dir = os.path.join(base_dir, "코드")
 new_data_dir = os.path.join(new_project_dir, "mktcap_3000_사업보고서_json")
 
@@ -151,7 +151,7 @@ def get_buss_detail(Dart_df):
 list_df = pd.read_excel(os.path.join(base_dir, 'data', '02.mktcap_3000.xlsx'), sheet_name='list', index_col=0)
 
 # 📌 OpenDart API 사용 설정
-api_key = '410c4886a25e0f4099c77ba16bae5054fdc30047'  # 🔴 실제 OpenDart API 키 입력 필요
+api_key = 'DART API KEY'  # 🔴 실제 OpenDart API 키 입력 필요
 dart = OpenDartReader(api_key)
 
 # 📌 데이터 추출 실행
