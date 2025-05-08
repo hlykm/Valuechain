@@ -1,5 +1,3 @@
-print("✅ 코드 시작됨")  # 맨 위에 추가
-
 import os
 import warnings
 import pandas as pd
