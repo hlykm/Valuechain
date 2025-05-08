@@ -3,7 +3,7 @@ import pandas as pd
 import glob
 
 # 폴더 경로
-folder_path = r"C:\Users\김현지M\스마일게이트자산운용\글로벌운용본부 - 문서\Collaboration\밸류체인\코드\mktcap_3000_최종_오류추가"
+folder_path = r"폴더 경로 설정"
 all_files = glob.glob(os.path.join(folder_path, "*.xlsx"))
 
 # 결과 저장용 리스트
